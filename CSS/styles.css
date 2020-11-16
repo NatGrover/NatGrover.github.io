@@ -1,0 +1,99 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+#the-one {
+  color: rgb(255, 246, 205);
+}
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5rem;
+}
+
+body {
+  background-color: rgb(70, 97, 39);
+  max-width: 1000px;
+  margin: 0 auto;
+  background-image: url("img/gradient.png");
+  background-position: center;
+  background-repeat: repeat-x;
+}
+h1 {
+  color: rgb(255, 246, 205);
+  background-color: rgb(124, 172, 93);
+  font-size: 3rem;
+  line-height: 3.5rem;
+  margin-left: 0.5rem;
+}
+h2 {
+    color: rgb(255, 246, 205);
+    background-color: rgb(157, 189, 106);
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    margin-left: 0.5rem;
+  }
+  li {
+    color: rgb(255, 246, 205);
+    background-color: rgb(70, 97, 39);
+    font-size: .9rem;
+    line-height: 2rem;
+    margin-left: 0.5rem;
+  }
+p {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: lighter;
+  letter-spacing: 0.2rem;
+  margin-left: 0.5rem;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  background-color: rgb(70, 97, 39);
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: rgb(70, 97, 39);
+  background-color: rgb(206, 219, 134);
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(70, 97, 39);
+}
+
+.new-color {
+  color: black;
+  background-color: rgb(206, 219, 134);
+}
+
+.box {
+  background-color: rgb(255, 246, 205);
+  width: 300px;
+  padding: 30px;
+  border: 20 px rgb(206, 219, 134)
+}
+
+.standard-box {
+    box-sizing: content-box;
+  }
+  
+  .border-box {
+    border-top: 20 px rgb(124, 172, 93);
+    border-bottom: 20 px rgb(206, 219, 134);
+    padding-right: 10px 20px 30px 20px;
+    box-sizing: border-box;
+  }
