@@ -68,7 +68,7 @@ a {
 }
 
 a:visited {
-  color: black;
+  color: antiquewhite;
 }
 
 a:hover {
@@ -82,8 +82,8 @@ a:active {
 }
 
 .new-color {
-  color: black;
-  background-color: rgb(206, 219, 134);
+  color: antiquewhite;
+  background-color: rgb(70, 97, 39);
 }
 
 .box {
