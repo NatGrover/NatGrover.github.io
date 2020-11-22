@@ -98,7 +98,7 @@ a:active {
 }
 
 .border-box {
-  background-color: antiquewhite;
+  background-color: rgb(70, 97, 39);
   width: 300px;
   padding: 30px;
   border-top: 20 px rgb(124, 172, 93);
