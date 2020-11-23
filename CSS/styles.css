@@ -40,6 +40,12 @@ h3 {
   line-height: 3rem;
   margin-left: 0.5rem;
 }
+h4 {
+  color: black;
+  font-size: 1rem;
+  line-height: 3rem;
+  margin-left: 0.5rem;
+}
 li {
   color: white;
   font-size: 1rem;
@@ -47,6 +53,7 @@ li {
   margin-left: 0.5rem;
 }
 p {
+  color: aliceblue;
   font-family: "Courier New", Courier, monospace;
   font-weight: lighter;
   letter-spacing: 0.2rem;
